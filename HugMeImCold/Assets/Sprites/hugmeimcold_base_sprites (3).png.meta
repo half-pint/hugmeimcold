@@ -1,0 +1,1276 @@
+fileFormatVersion: 2
+guid: d4d70061a7de34fcf9cc35d732d7e597
+timeCreated: 1512260833
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: left_3_red
+    21300002: left_2_red
+    21300004: left_1_red
+    21300006: right_3_red
+    21300008: right_2_red
+    21300010: right_1_red
+    21300012: hugmeimcold_base_sprites (3)_6
+    21300014: hugmeimcold_base_sprites (3)_7
+    21300016: hugmeimcold_base_sprites (3)_8
+    21300018: hugmeimcold_base_sprites (3)_9
+    21300020: hugmeimcold_base_sprites (3)_10
+    21300022: hugmeimcold_base_sprites (3)_11
+    21300024: hugmeimcold_base_sprites (3)_12
+    21300026: hugmeimcold_base_sprites (3)_13
+    21300028: hugmeimcold_base_sprites (3)_14
+    21300030: hugmeimcold_base_sprites (3)_15
+    21300032: hugmeimcold_base_sprites (3)_16
+    21300034: hugmeimcold_base_sprites (3)_17
+    21300036: hugmeimcold_base_sprites (3)_18
+    21300038: hugmeimcold_base_sprites (3)_19
+    21300040: hugmeimcold_base_sprites (3)_20
+    21300042: hugmeimcold_base_sprites (3)_21
+    21300044: hugmeimcold_base_sprites (3)_22
+    21300046: hugmeimcold_base_sprites (3)_23
+    21300048: up_3_red
+    21300050: up_1_red
+    21300052: up_2_red
+    21300054: down_3_red
+    21300056: down_1_red
+    21300058: down_2_red
+    21300060: hugmeimcold_base_sprites (3)_30
+    21300062: hugmeimcold_base_sprites (3)_31
+    21300064: hugmeimcold_base_sprites (3)_32
+    21300066: hugmeimcold_base_sprites (3)_33
+    21300068: hugmeimcold_base_sprites (3)_34
+    21300070: hugmeimcold_base_sprites (3)_35
+    21300072: hugmeimcold_base_sprites (3)_36
+    21300074: hugmeimcold_base_sprites (3)_37
+    21300076: hugmeimcold_base_sprites (3)_38
+    21300078: hugmeimcold_base_sprites (3)_39
+    21300080: hugmeimcold_base_sprites (3)_40
+    21300082: hugmeimcold_base_sprites (3)_41
+    21300084: hugmeimcold_base_sprites (3)_42
+    21300086: hugmeimcold_base_sprites (3)_43
+    21300088: hugmeimcold_base_sprites (3)_44
+    21300090: hugmeimcold_base_sprites (3)_45
+    21300092: hugmeimcold_base_sprites (3)_46
+    21300094: hugmeimcold_base_sprites (3)_47
+    21300096: hugmeimcold_base_sprites (3)_48
+    21300098: hugmeimcold_base_sprites (3)_49
+    21300100: hugmeimcold_base_sprites (3)_50
+    21300102: hugmeimcold_base_sprites (3)_51
+    21300104: hugmeimcold_base_sprites (3)_52
+    21300106: hugmeimcold_base_sprites (3)_53
+    21300108: hugmeimcold_base_sprites (3)_54
+    21300110: hugmeimcold_base_sprites (3)_55
+    21300112: hugmeimcold_base_sprites (3)_56
+    21300114: hugmeimcold_base_sprites (3)_57
+    21300116: hugmeimcold_base_sprites (3)_58
+    21300118: hugmeimcold_base_sprites (3)_59
+    21300120: hugmeimcold_base_sprites (3)_60
+    21300122: hugmeimcold_base_sprites (3)_61
+    21300124: hugmeimcold_base_sprites (3)_62
+    21300126: hugmeimcold_base_sprites (3)_63
+    21300128: hugmeimcold_base_sprites (3)_64
+    21300130: hugmeimcold_base_sprites (3)_65
+    21300132: hugmeimcold_base_sprites (3)_66
+    21300134: hugmeimcold_base_sprites (3)_67
+    21300136: hugmeimcold_base_sprites (3)_68
+    21300138: hugmeimcold_base_sprites (3)_69
+    21300140: hugmeimcold_base_sprites (3)_70
+    21300142: hugmeimcold_base_sprites (3)_71
+    21300144: hugmeimcold_base_sprites (3)_72
+    21300146: hugmeimcold_base_sprites (3)_73
+    21300148: hugmeimcold_base_sprites (3)_74
+    21300150: hugmeimcold_base_sprites (3)_75
+    21300152: hugmeimcold_base_sprites (3)_76
+    21300154: hugmeimcold_base_sprites (3)_77
+    21300156: hugmeimcold_base_sprites (3)_78
+    21300158: hugmeimcold_base_sprites (3)_79
+    21300160: hugmeimcold_base_sprites (3)_80
+    21300162: hugmeimcold_base_sprites (3)_81
+    21300164: hugmeimcold_base_sprites (3)_82
+    21300166: hugmeimcold_base_sprites (3)_83
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: left_3_red
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: left_2_red
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: left_1_red
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right_3_red
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right_2_red
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right_1_red
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_7
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_11
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_12
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_13
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_14
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_15
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_16
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_17
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_18
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_19
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_20
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_21
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_22
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 673
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: up_3_red
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 614
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: up_1_red
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 613
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: up_2_red
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 614
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: down_3_red
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 614
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: down_1_red
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 613
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: down_2_red
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 614
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_30
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 614
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 613
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 614
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_33
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 614
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 613
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_35
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 614
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_36
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 614
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_37
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 613
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_38
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 614
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_39
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 614
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_40
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 613
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_41
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 614
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_42
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 614
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_43
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 613
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_44
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 614
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_45
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 614
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_46
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 613
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_47
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 614
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_48
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_49
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_50
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_51
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_52
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_53
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_54
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_55
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_56
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_57
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_58
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_59
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_60
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_61
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_62
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_63
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_64
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_65
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 273
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_66
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 214
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_67
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 213
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_68
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 214
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_69
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 214
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_70
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 213
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_71
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 214
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_72
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 214
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_73
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 213
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_74
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 214
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_75
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 214
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_76
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 213
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_77
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 214
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_78
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 214
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_79
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 213
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_80
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 214
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_81
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 214
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_82
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 213
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hugmeimcold_base_sprites (3)_83
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 214
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
