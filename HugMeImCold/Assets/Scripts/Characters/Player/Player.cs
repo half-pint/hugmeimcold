@@ -20,6 +20,9 @@ public class Player : MonoBehaviour {
 	float velocityXSmoothing;
 	float velocityYSmoothing;
 
+	bool hasTent = false;
+	bool hasWood = false;
+
 	void Awake()
 	{
 		this.inputManager = Object.FindObjectOfType<InputManager>();
@@ -29,7 +32,7 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		
+		warmth = new Stat ();
 		warmth.MaxValue = 100;
 		warmth.CurrentValue = 100;
 		this.motor = GetComponent<CharacterMotor>();
@@ -53,5 +56,14 @@ public class Player : MonoBehaviour {
 
 		// call the move function for the character motor
 		this.motor.Move(this.velocity * Time.deltaTime);
+	}
+
+	public void GetItem(string item) {
+		if (item == "tent") 
+			hasTent = true;
+		else if (item == "wood") 
+			hasWood = true;
+		else
+			Debug.Log("I don't know what that item is");
 	}
 }
