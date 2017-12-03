@@ -10,6 +10,8 @@ public class Player : MonoBehaviour {
 	private InputManager inputManager;
 	private AudioManager audioManager;
 
+	private Stat warmth;
+
 	private DIRECTION facing;
 
 	Vector3 velocity;
@@ -27,6 +29,9 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+		
+		warmth.MaxValue = 100;
+		warmth.CurrentValue = 100;
 		this.motor = GetComponent<CharacterMotor>();
 
 		this.facing = DIRECTION.SOUTH;
