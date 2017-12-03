@@ -108,7 +108,7 @@ public class LevelManager : MonoBehaviour {
 		case TileType.empty:
 			returnObj = ground;
 			Debug.Break ();
-			Debug.LogError ("What are you doing why are you putting an empty tile anywhere?");
+			Debug.LogError ("Error: Please don't use '0' in the level file. You cannot instantiate an empty tiletype.");
 			break;
 		case TileType.ground:
 			returnObj = ground;

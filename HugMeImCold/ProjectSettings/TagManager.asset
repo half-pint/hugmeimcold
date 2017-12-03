@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - character
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: obj
+    uniqueID: 3221612941
+    locked: 0
+  - name: char
+    uniqueID: 1557574113
     locked: 0
