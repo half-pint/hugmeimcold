@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StatScript{
-	private BarScript bar;
+public class Stat {
+	private BarScript bar = new BarScript();
 
 	private float maxVal;
 

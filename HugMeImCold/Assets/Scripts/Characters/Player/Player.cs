@@ -15,6 +15,8 @@ public class Player : MonoBehaviour {
 	private DIRECTION facing;
 
 	Vector3 velocity;
+	float maxSpeed = 6;
+	[SerializeField]
 	float moveSpeed = 6;
 	float accelerationTime = .1f;
 	float velocityXSmoothing;
@@ -22,6 +24,8 @@ public class Player : MonoBehaviour {
 
 	bool hasTent = false;
 	bool hasWood = false;
+
+	public int sweaters = 0;
 
 	void Awake()
 	{
@@ -32,6 +36,7 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+		
 		warmth = new Stat ();
 		warmth.MaxValue = 100;
 		warmth.CurrentValue = 100;
@@ -43,6 +48,7 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
+		ReduceSpeed (sweaters);
 		// Get input from input manager
 		Vector2 input = new Vector2(this.inputManager.horizontal.GetInputRaw(), this.inputManager.vertical.GetInputRaw());
 
@@ -59,11 +65,28 @@ public class Player : MonoBehaviour {
 	}
 
 	public void GetItem(string item) {
-		if (item == "tent") 
+		if (item == "tent")
 			hasTent = true;
-		else if (item == "wood") 
+		else if (item == "wood")
 			hasWood = true;
+		else if (item == "sweater")
+			sweaters++;
 		else
 			Debug.Log("I don't know what that item is");
+	}
+
+	public bool GetItemStatus() {
+		if (hasTent && hasWood)
+			return true;
+		else
+			return false;
+	}
+
+	void ReduceSpeed(int numOfSweaters) {
+		moveSpeed = maxSpeed - numOfSweaters;
+		if (moveSpeed < 0)
+			moveSpeed = 0;
+		else if (moveSpeed > maxSpeed)
+			moveSpeed = maxSpeed;
 	}
 }

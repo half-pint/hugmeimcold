@@ -37,3 +37,6 @@ sysinfo.txt
 
 # Specific user settings files
 controls.json
+
+# TextMesh Pro
+/HugMeImCold/Assets/TextMesh/
