@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 1166435793}
   - component: {fileID: 1166435792}
   - component: {fileID: 1166435791}
+  - component: {fileID: 1166435796}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -269,6 +270,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   motor: {fileID: 1166435793}
+  moveSpeed: 6
+  sweaters: 0
 --- !u!114 &1166435793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,3 +327,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1166435796
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1166435790}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 22712f70dd20b445c9273a08458d49e4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1

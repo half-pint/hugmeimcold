@@ -27,10 +27,13 @@ public class Player : MonoBehaviour {
 
 	public int sweaters = 0;
 
+	Animator anim;
+
 	void Awake()
 	{
 		this.inputManager = Object.FindObjectOfType<InputManager>();
 		this.audioManager = Object.FindObjectOfType<AudioManager>();
+		this.anim = this.GetComponent<Animator> ();
 	}
 
 	// Use this for initialization
@@ -88,5 +91,11 @@ public class Player : MonoBehaviour {
 			moveSpeed = 0;
 		else if (moveSpeed > maxSpeed)
 			moveSpeed = maxSpeed;
+	}
+
+	void DoAnimations() {
+		anim.SetFloat ("pSpeed", moveSpeed);
+		anim.SetInteger ("pDir", (int)facing);
+		anim.SetInteger ("pSweaters", sweaters);
 	}
 }
