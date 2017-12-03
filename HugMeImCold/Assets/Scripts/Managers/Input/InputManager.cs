@@ -66,6 +66,8 @@ public class InputManager : MonoBehaviour {
 		}
 
 		// TODO: Initialize movement input axis
+		this.horizontal = new InputAxis(this.controls["Right"], this.controls["Left"], this.controls["alt_Right"], this.controls["alt_Left"]);
+		this.vertical = new InputAxis(this.controls["Forward"], this.controls["Backward"], this.controls["alt_Forward"], this.controls["alt_Backward"]);
 	}
 
 	public bool GetKey(string key) 

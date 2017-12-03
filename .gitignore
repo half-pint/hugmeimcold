@@ -23,6 +23,7 @@
 *.svd
 *.pdb
 *.meta
+*.json.meta
 
 # Unity3D generated meta files
 *.pidb.meta
