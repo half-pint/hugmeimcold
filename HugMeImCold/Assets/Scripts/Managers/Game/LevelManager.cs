@@ -69,17 +69,19 @@ public class LevelManager : MonoBehaviour {
 	}
 
 	void PlaceGameObject(GameObject go, int x, int y) {
-		if (go == player){
-			Debug.Log ("found player");
-			GOmap [y,x] = ground; // we'll put ground beneath the player for now.
-			Debug.Log(GOmap[y,x].name + " was put there");
-//			PlacePlayer(x,y);
+		if (go == ground)
+			GOmap [y, x] = go;
+		else {
+			GOmap [y, x] = ground;
+			PlaceUniqueObj (go, x, y);
+			return;
 		}
-		GOmap [y,x] = go;
 	}
 
 	void InstantiateGOs(){
-		for (int y = 0; y < GOmap.Length; y++) {
+		Debug.Log (GOmap.GetLength(0));
+		Debug.Log (GOmap.GetLength(1));
+		for (int y = 0; y < GOmap.GetLength(0); y++) {
 			for (int x = 0; x < GOmap.GetLength(1); x++) {
 //				Debug.Log (GOmap [y, x].name);
 				GameObject newGO = GameObject.Instantiate (GOmap [y, x]);
@@ -92,9 +94,9 @@ public class LevelManager : MonoBehaviour {
 		GOmap = new GameObject[1,1];
 	}
 
-	void PlacePlayer(int x, int y){
-		GameObject newPlayer = GameObject.Instantiate (player);
-		newPlayer.transform.position = new Vector2 (x*tileSize, y*tileSize);
+	void PlaceUniqueObj(GameObject GO, int x, int y){
+		GameObject newObj = GameObject.Instantiate (GO);
+		newObj.transform.position = new Vector2 (x*tileSize, y*tileSize);
 	}
 
 	GameObject GetPrefab(TileType tType) {
