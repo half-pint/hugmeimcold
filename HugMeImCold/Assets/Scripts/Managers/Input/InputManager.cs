@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using System.Linq;
 
 public class InputManager : MonoBehaviour {
 
@@ -95,6 +96,29 @@ public class InputManager : MonoBehaviour {
 
 		// We do not have the key registered in our layout
 		return false;
+	}
+
+	public string[] getControlKeyNames()
+	{
+		return this.controls.Keys.ToArray();
+	}
+
+	public string getKeyCodeString(string name)
+	{
+		if(this.controls.ContainsKey(name))
+		{
+			return this.controls[name].ToString();
+		}
+		else
+		{
+			return "N/A";
+		}
+	}
+
+	public void setKeyCodeForKey(string name, KeyCode code)
+	{
+		this.controls[name] = code;
+		this.saveKeyLayout();
 	}
 
 	private Dictionary<string, KeyCode> loadControlLayout() 
