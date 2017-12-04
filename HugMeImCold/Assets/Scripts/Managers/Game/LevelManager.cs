@@ -37,9 +37,17 @@ public class LevelManager : MonoBehaviour {
 
 		// From 4ndro1d at http://answers.unity3d.com/questions/577889/create-level-based-on-xmltxt-file.html
 		// for reading the files, modified for this project.
-
+		Debug.Log(parent);
+		if (parent == null) {
+			parent = new GameObject ("parent");
+		}
 		string file = "Assets/Levels/" + levelNum.ToString();
-		string text = File.ReadAllText (file);
+		try{
+			string text = File.ReadAllText (file);
+		} catch (FileNotFoundException e) {
+			Debug.Log ("There are no more levels!");
+			Debug.Break ();
+		}
 		string[] lines = Regex.Split (text, "\n"); // TODO: This might not work with carriage return.
 		int rows = lines.Length;
 
@@ -83,9 +91,6 @@ public class LevelManager : MonoBehaviour {
 	}
 
 	void InstantiateGOs(){
-		if (parent == null) {
-			parent = new GameObject ("parent");
-		}
 		Debug.Log (GOmap.GetLength(0));
 		Debug.Log (GOmap.GetLength(1));
 		for (int y = 0; y < GOmap.GetLength(0); y++) {
@@ -100,13 +105,14 @@ public class LevelManager : MonoBehaviour {
 
 	public void ClearLevel(){
 		Destroy (parent);
+		parent = null;
+		Debug.Log ("Destroyed");
+		Debug.Log ("parent is " + parent);
 		GOmap = new GameObject[1,1];
 	}
 
 	void PlaceUniqueObj(GameObject GO, int x, int y){
-		if (parent == null) {
-			parent = new GameObject ("parent");
-		}
+		
 		GameObject newObj = GameObject.Instantiate (GO,parent.transform);
 		newObj.transform.position = new Vector2 (x*tileSize, y*tileSize);
 	}
