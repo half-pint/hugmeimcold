@@ -123,7 +123,7 @@ public class Player : MonoBehaviour {
 	}
 //
 //	void DoAnimations() {
-//		
+	//		anim.SetFloat("pSpeed",moveSpeed);
 //	}
 
 	void GetDir() {

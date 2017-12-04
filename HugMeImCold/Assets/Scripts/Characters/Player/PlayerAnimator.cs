@@ -64,6 +64,7 @@ public class PlayerAnimator : MonoBehaviour {
 //		Debug.Log ("Direction is " + direction);
 //		speed = player.moveSpeed;
 		sweaters = player.sweaters;
+		Debug.Log (sweaters);
 
 		speed = Mathf.Abs(Input.GetAxis("Horizontal") + Input.GetAxis("Vertical"));
 
