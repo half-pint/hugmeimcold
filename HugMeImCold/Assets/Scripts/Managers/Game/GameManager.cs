@@ -11,10 +11,12 @@ public class GameManager : MonoBehaviour {
 
 	public int currentLevel = 0;
 
+	CameraController cam;
+
 
 	// Use this for initialization
 	void Awake () {
-
+		cam = GameObject.FindObjectOfType<CameraController> ();
 		if (instance == null)        
             instance = this;
         else if (instance != this)        
@@ -24,6 +26,7 @@ public class GameManager : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
 		levelManager = GetComponent<LevelManager>();
         InitGame();
+
 	}
 
 	void InitGame(){
