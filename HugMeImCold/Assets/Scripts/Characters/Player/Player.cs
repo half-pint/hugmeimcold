@@ -10,6 +10,8 @@ public class Player : MonoBehaviour {
 	private InputManager inputManager;
 	private AudioManager audioManager;
 
+	private GameManager gameManager;
+
 	private Stat warmth;
 
 	private DIRECTION facing;
@@ -33,21 +35,37 @@ public class Player : MonoBehaviour {
 	{
 		this.inputManager = Object.FindObjectOfType<InputManager>();
 		this.audioManager = Object.FindObjectOfType<AudioManager>();
+		this.gameManager = Object.FindObjectOfType<GameManager>();
 		this.anim = this.GetComponent<Animator> ();
 	}
 
 	// Use this for initialization
 	void Start () 
 	{
+
 		
 		warmth = new Stat ();
+
+		warmth.OnValueChange += CheckIfAliveOrDead;
+		//do smth
 		warmth.MaxValue = 100;
-		warmth.CurrentValue = 100;
+		warmth.CurrentValue = 50;
 		this.motor = GetComponent<CharacterMotor>();
 
 		this.facing = DIRECTION.SOUTH;
 	}
 	
+	void CheckIfAliveOrDead(float val){
+		Debug.Log(val);
+		if(val <= 0){
+			//tell game manager you are dead :( no lying
+			gameManager.lose();
+
+		}else{
+			//woop not dead yet
+		}
+	}
+
 	// Update is called once per frame
 	void Update () 
 	{
@@ -65,6 +83,12 @@ public class Player : MonoBehaviour {
 
 		// call the move function for the character motor
 		this.motor.Move(this.velocity * Time.deltaTime);
+
+		DecreaseBodyTemperature();
+	}
+
+	void DecreaseBodyTemperature(){
+		warmth.decreaseStat();
 	}
 
 	public void GetItem(string item) {

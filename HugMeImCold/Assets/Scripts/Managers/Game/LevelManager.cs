@@ -29,7 +29,7 @@ public class LevelManager : MonoBehaviour {
 	}
 
 	// WARNING: I copied this from something else is that bad?
-	void ReadLevelFromText(int levelNum){
+	public void ReadLevelFromText(int levelNum){
 
 		// From 4ndro1d at http://answers.unity3d.com/questions/577889/create-level-based-on-xmltxt-file.html
 		// for reading the files, modified for this project.
@@ -90,7 +90,7 @@ public class LevelManager : MonoBehaviour {
 		}
 	}
 
-	void ClearLevel(){
+	public void ClearLevel(){
 		GOmap = new GameObject[1,1];
 	}
 

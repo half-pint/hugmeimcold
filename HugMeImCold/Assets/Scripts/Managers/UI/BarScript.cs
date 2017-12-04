@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class BarScript : MonoBehaviour {
 
-	private float fillAmount = 100;
+	private float fillAmount = 90;
 
 	private Image content;
 
@@ -26,27 +26,31 @@ public class BarScript : MonoBehaviour {
 	{
 		set{
 			fillAmount = Map(value, 0, maxValue, 0, 1);
+			if(content == null){
+				content = GameObject.Find("Content").GetComponent<Image>();
+			}
+			content.fillAmount = fillAmount;
 		}
 	}
 
 	// Use this for initialization
-	void Start () {
-
-		content = GameObject.Find("Content").GetComponent<Image>();
+	void Awake () {
+		//we cant have a second stat cause this is a stupid line of code
+		
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
 		SyncBar();
 	}
 
 	public void SyncBar(){
-		Debug.Log(fillAmount);
-		Debug.Log(content.fillAmount);
-		if(content.fillAmount != fillAmount){
+		/*Debug.Log(fillAmount);*/
+/*		if(content.fillAmount != fillAmount){
 			content.fillAmount = fillAmount;
-		}
+		}*/
 	}
 
 	private float Map(float value, float inMin, float inMax, float outMin, float outMax){
