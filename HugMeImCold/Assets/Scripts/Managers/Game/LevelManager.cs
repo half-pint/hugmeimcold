@@ -42,8 +42,9 @@ public class LevelManager : MonoBehaviour {
 			parent = new GameObject ("parent");
 		}
 		string file = "Assets/Levels/" + levelNum.ToString();
+		string text = "";
 		try{
-			string text = File.ReadAllText (file);
+			text = File.ReadAllText (file);
 		} catch (FileNotFoundException e) {
 			Debug.Log ("There are no more levels!");
 			Debug.Break ();
