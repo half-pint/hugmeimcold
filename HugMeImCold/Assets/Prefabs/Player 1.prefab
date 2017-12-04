@@ -87,9 +87,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationName: 0_d_w
   startIn: 0
-  speed: 0
+  speed: 0.01
   automaticallyStart: 0
-  autoStartLoop: 1
+  autoStartLoop: 0
   autoStartReverse: 0
   frames:
   - {fileID: 21300018, guid: 81b2115c728d2433db01f4323eabf74d, type: 3}
@@ -232,7 +232,7 @@ MonoBehaviour:
   facing: 0
   velocity: {x: 0, y: 0, z: 0}
   moveSpeed: 6
-  sweaters: 0
+  sweaters: 1
 --- !u!212 &212617957476169598
 SpriteRenderer:
   m_ObjectHideFlags: 1
