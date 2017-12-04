@@ -14,12 +14,12 @@ public class Player : MonoBehaviour {
 
 	private Stat warmth;
 
-	private DIRECTION facing;
+	public DIRECTION facing;
 
-	Vector3 velocity;
+	public Vector3 velocity;
 	float maxSpeed = 6;
 	[SerializeField]
-	float moveSpeed = 6;
+	public float moveSpeed = 6;
 	float accelerationTime = .1f;
 	float velocityXSmoothing;
 	float velocityYSmoothing;
@@ -29,14 +29,16 @@ public class Player : MonoBehaviour {
 
 	public int sweaters = 0;
 
-	Animator anim;
+
+//	Animator anim;
 
 	void Awake()
 	{
 		this.inputManager = Object.FindObjectOfType<InputManager>();
 		this.audioManager = Object.FindObjectOfType<AudioManager>();
 		this.gameManager = Object.FindObjectOfType<GameManager>();
-		this.anim = this.GetComponent<Animator> ();
+
+//		this.anim = this.GetComponent<Animator> ();
 	}
 
 	// Use this for initialization
@@ -56,10 +58,10 @@ public class Player : MonoBehaviour {
 	}
 	
 	void CheckIfAliveOrDead(float val){
-		Debug.Log(val);
+//		Debug.Log(val);
 		if(val <= 0){
 			//tell game manager you are dead :( no lying
-			gameManager.lose();
+			gameManager.Lose();
 
 		}else{
 			//woop not dead yet
@@ -84,7 +86,10 @@ public class Player : MonoBehaviour {
 		// call the move function for the character motor
 		this.motor.Move(this.velocity * Time.deltaTime);
 
+		GetDir ();
+		Debug.Log (facing);
 		DecreaseBodyTemperature();
+//		DoAnimations ();
 	}
 
 	void DecreaseBodyTemperature(){
@@ -116,10 +121,25 @@ public class Player : MonoBehaviour {
 		else if (moveSpeed > maxSpeed)
 			moveSpeed = maxSpeed;
 	}
+//
+//	void DoAnimations() {
+//		
+//	}
 
-	void DoAnimations() {
-		anim.SetFloat ("pSpeed", moveSpeed);
-		anim.SetInteger ("pDir", (int)facing);
-		anim.SetInteger ("pSweaters", sweaters);
+	void GetDir() {
+		float xDir = Input.GetAxis("Horizontal");
+		float yDir = Input.GetAxis("Vertical");
+
+		if (xDir > 0)
+			facing = DIRECTION.EAST;
+		else if (xDir < 0)
+			facing = DIRECTION.WEST;
+
+		else if (yDir > 0)
+			facing = DIRECTION.NORTH;
+		else if (yDir < 0)
+			facing = DIRECTION.SOUTH;
+		else
+			facing = facing;
 	}
 }

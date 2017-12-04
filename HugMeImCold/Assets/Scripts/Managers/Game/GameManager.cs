@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour {
 
 	}
 
-	public void lose(){
+	public void Lose(){
 		Debug.Log("Sob :(");
 	}
 

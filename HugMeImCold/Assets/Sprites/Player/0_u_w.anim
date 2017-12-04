@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: 2_d_w
+  m_Name: 0_u_w
   serializedVersion: 6
   m_Legacy: 1
   m_Compressed: 0
@@ -19,9 +19,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300066, guid: c58f9d19187d6454798285e953f2daf1, type: 3}
+      value: {fileID: 21300012, guid: 81b2115c728d2433db01f4323eabf74d, type: 3}
     - time: 0.083333336
-      value: {fileID: 21300070, guid: c58f9d19187d6454798285e953f2daf1, type: 3}
+      value: {fileID: 21300016, guid: 81b2115c728d2433db01f4323eabf74d, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
