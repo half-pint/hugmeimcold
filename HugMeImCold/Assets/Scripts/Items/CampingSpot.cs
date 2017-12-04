@@ -23,13 +23,15 @@ public class CampingSpot : InteractableItem {
 
 		if(hasVictoryCondition)
 		{
+			GameObject.FindObjectOfType<GameManager>().Win();
 			// TODO: Beat the level
 			// For now we just quit the game
-			#if UNITY_EDITOR
-				UnityEditor.EditorApplication.isPlaying = false;
-			#else
-				Application.Quit();
-			#endif
+//			#if UNITY_EDITOR
+////				UnityEditor.EditorApplication.isPlaying = false;
+//			#else
+////				Application.Quit();
+//
+//			#endif
 
 			// Destroy the game object in the scene so as to simulate the item having been picked up
 			Destroy(gameObject);

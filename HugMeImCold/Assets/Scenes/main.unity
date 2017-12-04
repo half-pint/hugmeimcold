@@ -298,7 +298,9 @@ MonoBehaviour:
   ground: {fileID: 1366090823338826, guid: 459b3cea4995d42b9a962bb0b147d0f4, type: 2}
   player: {fileID: 1987755727372000, guid: 83edb9c923c8a41849161ec6c639e35a, type: 2}
   tree: {fileID: 1059655244612508, guid: e9fd09013981d4b888f443736798ce65, type: 2}
-  resource: {fileID: 1116202199491310, guid: 5e8ed7be5913148ff9e2a12f1ce490fe, type: 2}
+  tent: {fileID: 1228586705655982, guid: a22eeac20417948cab7edfee60c20a02, type: 2}
+  wood: {fileID: 1539844150078380, guid: 300abc30013e74f5185fdb481adb4929, type: 2}
+  campsite: {fileID: 1390952488352712, guid: 26ba45a84c1f7402ba8af297b59f45a4, type: 2}
   tileSize: 1
 --- !u!4 &974326933
 Transform:

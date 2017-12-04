@@ -14,7 +14,7 @@ public class InteractableItem : MonoBehaviour, IInteractable {
 	//public GameObject canvas;
 
 	// Range around the item in which the player can interact with the item
-	protected float range = 2.5f;
+	protected float range = 0.9f;
 
 	// boolean that keeps info on whether player currently is in range
 	protected bool playerInRange = false;

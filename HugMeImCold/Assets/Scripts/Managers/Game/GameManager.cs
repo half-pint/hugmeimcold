@@ -31,12 +31,13 @@ public class GameManager : MonoBehaviour {
 		levelManager.ReadLevelFromText(currentLevel);
 	}
 
-	public void win(){
+	public void Win(){
 
 		levelManager.ClearLevel();
 
 		currentLevel ++;
 
+//		levelManager.ClearLevel ();
 		levelManager.ReadLevelFromText(currentLevel);
 
 	}

@@ -270,6 +270,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   motor: {fileID: 1166435793}
+  facing: 0
+  velocity: {x: 0, y: 0, z: 0}
   moveSpeed: 6
   sweaters: 0
 --- !u!114 &1166435793

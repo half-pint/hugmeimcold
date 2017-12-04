@@ -16,12 +16,16 @@ public class LevelManager : MonoBehaviour {
 	public GameObject ground;
 	public GameObject player;
 	public GameObject tree;
-	public GameObject resource;
+	public GameObject tent;
+	public GameObject wood;
+	public GameObject campsite;
 
 	//Tile[][] map;
 	GameObject[,] GOmap;
 
 	public float tileSize = 1;
+
+	GameObject parent;
 
 	void Update() {
 		if (Input.GetKeyDown (KeyCode.Space))
@@ -79,23 +83,31 @@ public class LevelManager : MonoBehaviour {
 	}
 
 	void InstantiateGOs(){
+		if (parent == null) {
+			parent = new GameObject ("parent");
+		}
 		Debug.Log (GOmap.GetLength(0));
 		Debug.Log (GOmap.GetLength(1));
 		for (int y = 0; y < GOmap.GetLength(0); y++) {
 			for (int x = 0; x < GOmap.GetLength(1); x++) {
 //				Debug.Log (GOmap [y, x].name);
-				GameObject newGO = GameObject.Instantiate (GOmap [y, x]);
+				GameObject newGO = GameObject.Instantiate (GOmap [y, x],parent.transform);
+
 				newGO.transform.position = new Vector2 (x * tileSize, y * tileSize);
 			}
 		}
 	}
 
 	public void ClearLevel(){
+		Destroy (parent);
 		GOmap = new GameObject[1,1];
 	}
 
 	void PlaceUniqueObj(GameObject GO, int x, int y){
-		GameObject newObj = GameObject.Instantiate (GO);
+		if (parent == null) {
+			parent = new GameObject ("parent");
+		}
+		GameObject newObj = GameObject.Instantiate (GO,parent.transform);
 		newObj.transform.position = new Vector2 (x*tileSize, y*tileSize);
 	}
 
@@ -116,11 +128,17 @@ public class LevelManager : MonoBehaviour {
 		case TileType.playerSpawn:
 			returnObj =  player;
 			break;
-		case TileType.resource:
-			returnObj =  resource;
+		case TileType.wood:
+			returnObj =  wood;
 			break;
 		case TileType.tree:
 			returnObj =  tree;
+			break;
+		case TileType.tent:
+			returnObj =  tent;
+			break;
+		case TileType.campsite:
+			returnObj =  campsite;
 			break;
 		}
 		return returnObj;
@@ -147,5 +165,7 @@ public enum TileType {
 	ground = 1,
 	playerSpawn = 2,
 	tree = 3,
-	resource = 4,
+	wood = 4,
+	tent = 5,
+	campsite = 6
 }
