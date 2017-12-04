@@ -142,4 +142,9 @@ public class Player : MonoBehaviour {
 		else
 			facing = facing;
 	}
+
+
+	public void IncreaseWarmth(float f) {
+		this.warmth.CurrentValue += f;
+	}
 }
