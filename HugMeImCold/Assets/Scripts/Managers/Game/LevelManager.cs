@@ -20,6 +20,7 @@ public class LevelManager : MonoBehaviour {
 	public GameObject wood;
 	public GameObject campsite;
 	public GameObject sweater;
+	public GameObject wall;
 
 	//Tile[][] map;
 	GameObject[,] GOmap;
@@ -151,6 +152,9 @@ public class LevelManager : MonoBehaviour {
 		case TileType.sweater:
 			returnObj =  sweater;
 			break;
+		case TileType.wall:
+			returnObj =  wall;
+			break;
 		}
 		return returnObj;
 	}
@@ -179,5 +183,6 @@ public enum TileType {
 	wood = 4,
 	tent = 5,
 	campsite = 6,
-	sweater = 7
+	sweater = 7,
+	wall = 8
 }
