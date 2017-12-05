@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
@@ -16,12 +17,12 @@ public class GameManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Awake () {
-		cam = GameObject.FindObjectOfType<CameraController> ();
 		if (instance == null)        
             instance = this;
         else if (instance != this)        
             Destroy(gameObject);    
-            
+	
+		cam = GameObject.FindObjectOfType<CameraController> ();
         //Sets this to not be destroyed when reloading scene
         DontDestroyOnLoad(gameObject);
 		levelManager = GetComponent<LevelManager>();
@@ -41,14 +42,24 @@ public class GameManager : MonoBehaviour {
 		currentLevel ++;
 
 //		levelManager.ClearLevel ();
-		levelManager.ReadLevelFromText(currentLevel);
+		if(currentLevel >= 6)
+		{
+			currentLevel = 0;
+			SceneManager.LoadScene("won");	
+		}
+		else
+		{		
+			levelManager.ReadLevelFromText(currentLevel);
+		}
 
 	}
 
 	public void Lose(){
 		Debug.Log("Sob :( you lost");
 		levelManager.ClearLevel ();
-		InitGame ();
+		currentLevel = 0;
+		//InitGame ();
+		SceneManager.LoadScene("lost");
 	}
 
 
