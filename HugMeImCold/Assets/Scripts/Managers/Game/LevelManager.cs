@@ -30,8 +30,8 @@ public class LevelManager : MonoBehaviour {
 	GameObject levelContainer;
 
 	void Update() {
-		if (Input.GetKeyDown (KeyCode.Space))
-			ReadLevelFromText (0);
+		/*if (Input.GetKeyDown (KeyCode.Space))
+			ReadLevelFromText (0);*/
 	}
 
 	// WARNING: I copied this from something else is that bad?

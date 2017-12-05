@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour {
 	
 		cam = GameObject.FindObjectOfType<CameraController> ();
         //Sets this to not be destroyed when reloading scene
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
 		levelManager = GetComponent<LevelManager>();
         InitGame();
 
