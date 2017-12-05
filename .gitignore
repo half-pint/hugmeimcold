@@ -22,8 +22,6 @@
 *.booproj
 *.svd
 *.pdb
-*.meta
-*.json.meta
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -37,6 +35,7 @@ sysinfo.txt
 
 # Specific user settings files
 controls.json
+controls.json.meta
 
 # TextMesh Pro
 /HugMeImCold/Assets/TextMesh/
