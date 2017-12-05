@@ -9,7 +9,7 @@ public class Stat{
 
 	private float currentVal;
 
-	public float decrease = 0.01f;
+	public float decrease = 0.1f;
 
 	public delegate void ValueChangeCb(float val);
 

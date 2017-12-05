@@ -46,7 +46,9 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void Lose(){
-		Debug.Log("Sob :(");
+		Debug.Log("Sob :( you lost");
+		levelManager.ClearLevel ();
+		InitGame ();
 	}
 
 

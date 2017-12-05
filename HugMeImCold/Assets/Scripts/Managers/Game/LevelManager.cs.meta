@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: fec5dcedd31064dfcb86fe585e7fdaaa
-timeCreated: 1512426480
+timeCreated: 1512429404
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
@@ -12,6 +12,7 @@ MonoImporter:
   - wood: {fileID: 1539844150078380, guid: 300abc30013e74f5185fdb481adb4929, type: 2}
   - campsite: {fileID: 1390952488352712, guid: 26ba45a84c1f7402ba8af297b59f45a4, type: 2}
   - sweater: {fileID: 1202886215273474, guid: e484a0f43df9f4532a252f129d79a821, type: 2}
+  - wall: {fileID: 1318334949539576, guid: 5e05350ddaed540eba55b3f9c4895f17, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
