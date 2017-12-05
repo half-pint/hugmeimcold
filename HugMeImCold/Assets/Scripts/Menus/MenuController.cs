@@ -31,6 +31,21 @@ public class MenuController : MonoBehaviour {
 		this.audioManager = Object.FindObjectOfType<AudioManager>();
 		this.audioManager.Play("MainMenuTheme");
 		//this.gameManager = Object.FindObjectOfType<GameManager>();
+
+		if(masterVolumeSlider)
+		{
+			this.masterVolumeSlider.value = this.audioManager.masterVolume;
+		}
+
+		if(musicVolumeSlider)
+		{
+			this.musicVolumeSlider.value = this.audioManager.musicVolume;
+		}
+
+		if(effectsVolumeSlider)
+		{
+			this.effectsVolumeSlider.value = this.audioManager.effectsVolume;
+		}
 	}
 
 	// Update is called once per frame

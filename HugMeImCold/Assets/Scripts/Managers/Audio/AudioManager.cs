@@ -13,9 +13,9 @@ public class AudioManager : MonoBehaviour {
 	private Sound currentBGM;
 
 	// Volume values
-	private float masterVolume = 1f;
-	private float musicVolume = 1f;
-	private float effectsVolume = 1f;
+	public float masterVolume = 1f;
+	public float musicVolume = 1f;
+	public float effectsVolume = 1f;
 
 	// Default pitch value, useful for changing pitch of sound effects randomly based on the default value
 	private float defaultPitch = 1f;
