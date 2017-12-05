@@ -27,7 +27,7 @@ public class LevelManager : MonoBehaviour {
 
 	public float tileSize = 1;
 
-	GameObject parent;
+	GameObject levelContainer;
 
 	void Update() {
 		if (Input.GetKeyDown (KeyCode.Space))
@@ -39,10 +39,21 @@ public class LevelManager : MonoBehaviour {
 
 		// From 4ndro1d at http://answers.unity3d.com/questions/577889/create-level-based-on-xmltxt-file.html
 		// for reading the files, modified for this project.
-		Debug.Log(parent);
-		if (parent == null) {
-			parent = new GameObject ("parent");
+		Debug.Log(levelContainer);
+//		if (levelContainer == null) {
+//			levelContainer = new GameObject ("levelContainer");
+//			levelContainer.tag = "levelContainer";
+		// We do not have levelContainer, attempt to find it
+		GameObject searchResult = GameObject.Find("levelContainer");
+
+		if(searchResult) 
+			{
+				this.levelContainer = searchResult.gameObject;
+			}
+		 else {
+			this.levelContainer = new GameObject ("levelContainer");
 		}
+
 		string file = "Assets/Levels/" + levelNum.ToString();
 		string text = "";
 		try{
@@ -99,7 +110,7 @@ public class LevelManager : MonoBehaviour {
 		for (int y = 0; y < GOmap.GetLength(0); y++) {
 			for (int x = 0; x < GOmap.GetLength(1); x++) {
 //				Debug.Log (GOmap [y, x].name);
-				GameObject newGO = GameObject.Instantiate (GOmap [y, x],parent.transform);
+				GameObject newGO = GameObject.Instantiate (GOmap [y, x],levelContainer.transform);
 
 				newGO.transform.position = new Vector2 (x * tileSize, y * tileSize);
 			}
@@ -107,16 +118,22 @@ public class LevelManager : MonoBehaviour {
 	}
 
 	public void ClearLevel(){
-		Destroy (parent);
-		parent = null;
+		while (this.levelContainer.transform.childCount > 0) 
+		{
+			Transform c = this.levelContainer.transform.GetChild (0);
+			c.SetParent (null);
+			Destroy (c.gameObject);
+		}
+//		Destroy (levelContainer);
+//		levelContainer = null;
 		Debug.Log ("Destroyed");
-		Debug.Log ("parent is " + parent);
+		Debug.Log ("parent is " + levelContainer);
 		GOmap = new GameObject[1,1];
 	}
 
 	void PlaceUniqueObj(GameObject GO, int x, int y){
 		
-		GameObject newObj = GameObject.Instantiate (GO,parent.transform);
+		GameObject newObj = GameObject.Instantiate (GO,levelContainer.transform);
 		newObj.transform.position = new Vector2 (x*tileSize, y*tileSize);
 	}
 
