@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour {
 		currentLevel ++;
 
 //		levelManager.ClearLevel ();
-		if(currentLevel >= 6)
+		if(currentLevel > 6)
 		{
 			currentLevel = 0;
 			SceneManager.LoadScene("won");	
