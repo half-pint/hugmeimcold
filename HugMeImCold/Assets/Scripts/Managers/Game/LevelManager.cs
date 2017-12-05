@@ -36,7 +36,7 @@ public class LevelManager : MonoBehaviour {
 
 	// WARNING: I copied this from something else is that bad?
 	public void ReadLevelFromText(int levelNum){
-
+//		levelContainer = null;
 		// From 4ndro1d at http://answers.unity3d.com/questions/577889/create-level-based-on-xmltxt-file.html
 		// for reading the files, modified for this project.
 		Debug.Log(levelContainer);
@@ -120,14 +120,17 @@ public class LevelManager : MonoBehaviour {
 	public void ClearLevel(){
 		while (this.levelContainer.transform.childCount > 0) 
 		{
+			
 			Transform c = this.levelContainer.transform.GetChild (0);
-			c.SetParent (null);
-			Destroy (c.gameObject);
+//			if (c != null || c.parent != null) {
+				c.SetParent (null);
+				Destroy (c.gameObject);
+//			}
 		}
 //		Destroy (levelContainer);
 //		levelContainer = null;
-		Debug.Log ("Destroyed");
-		Debug.Log ("parent is " + levelContainer);
+//		Debug.Log ("Destroyed");
+//		Debug.Log ("parent is " + levelContainer);
 		GOmap = new GameObject[1,1];
 	}
 
