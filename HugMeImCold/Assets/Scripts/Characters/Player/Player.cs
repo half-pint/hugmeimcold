@@ -51,7 +51,7 @@ public class Player : MonoBehaviour {
 		warmth.OnValueChange += CheckIfAliveOrDead;
 		//do smth
 		warmth.MaxValue = 100;
-		warmth.CurrentValue = 50;
+		warmth.CurrentValue = 70;
 		this.motor = GetComponent<CharacterMotor>();
 
 		this.facing = DIRECTION.SOUTH;
